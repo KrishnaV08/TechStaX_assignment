@@ -46,7 +46,7 @@ class SignupController extends GetxController {
 
       if (response.user != null) {
         Get.snackbar(
-          'Email confirmation required',
+          'Confirmation Email Sent',
           'Please check your email to confirm your account.',
           snackPosition: SnackPosition.BOTTOM,
           margin: const EdgeInsets.all(16),
